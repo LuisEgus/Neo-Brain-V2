@@ -38,7 +38,7 @@ calendar = st.Page(
 search = st.Page("tools/search.py", title="Search", icon=":material/search:")
 history = st.Page("tools/history.py", title="History", icon=":material/history:")
 
-if st.user.is_logged_in:
+if st.experimental_user.is_logged_in:
     pg = st.navigation(
         {
             "Cuenta": [logout_page],
