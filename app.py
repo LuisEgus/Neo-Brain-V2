@@ -1,5 +1,6 @@
 import streamlit as st
 
+#python -m venv venv
 #.\venv\Scripts\Activate
 
 def login():
