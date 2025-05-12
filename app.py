@@ -30,14 +30,14 @@ logout_page = st.Page(logout, title="Log out", icon=":material/logout:")
 chatbot = st.Page(
     "reports/chatbot.py", title="Chatbot", icon=":material/dashboard:", default=True
 )
-bugs = st.Page("reports/bugs.py", title="Bug reports", icon=":material/bug_report:")
+bugs = st.Page("reports/bugs.py", title="Bug report", icon=":material/bug_report:")
 calendar = st.Page(
     "reports/calendar.py", title="Calendar", icon=":material/notification_important:"
 )
 
 
-search = st.Page("tools/search.py", title="Search", icon=":material/search:")
-history = st.Page("tools/history.py", title="History", icon=":material/history:")
+search = st.Page("tools/search.py", title="Búsqueda", icon=":material/search:")
+history = st.Page("tools/history.py", title="Historial", icon=":material/history:")
 
 if st.experimental_user.is_logged_in:
     pg = st.navigation(
